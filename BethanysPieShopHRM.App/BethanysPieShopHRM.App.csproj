@@ -14,7 +14,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BethanysPieShopHRM.ComponentsLibrary\BethanysPieShopHRM.ComponentsLibrary.csproj" />
     <ProjectReference Include="..\BethanysPieShopHRM.Shared\BethanysPieShopHRM.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Components\ProfilePicture.razor">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
